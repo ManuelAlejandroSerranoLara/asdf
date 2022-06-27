@@ -17,7 +17,13 @@
             android:name=".Actividad2Aplicacion"
             android:exported="false"
             android:label="@string/title_activity_actividad2_aplicacion"
-            android:theme="@style/Theme.Proyecto_respaldo.NoActionBar" />
+            android:theme="@style/Theme.Proyecto_respaldo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Actividad1Sesion"
             android:exported="true" >
